@@ -15,8 +15,7 @@ export class UserController {
     @HttpCode(200)
     async findAllUser(
         @Query() query: FindAllUserDto
-    ): Promise<any>{ // change retrun datatype
-        // return this.userService.findAll()
+    ): Promise<Object> { 
         return await this.userService.findAllUser(query)
     }
 }
