@@ -1,1 +1,1 @@
-web: cd gogoro && npm run start
+web: cd gogoro && npm install && npm run start
