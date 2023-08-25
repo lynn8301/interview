@@ -1,0 +1,1 @@
+web: cd gogoro && npm run start
