@@ -1,1 +1,1 @@
-web: cd gogoro && npm run start:prod
+web: cd gogoro && npm run start
