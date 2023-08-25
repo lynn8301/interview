@@ -1,1 +1,1 @@
-web: npm run nstart:prod
+web: cd gogoto && npm run nstart:prod
